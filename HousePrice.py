@@ -18,7 +18,7 @@ model = joblib.load('HousePredictorModel.pkl')
 
 #TO ADD HEADER
 st.markdown("<h1 style = 'color: #000000; text-align: center; font-family: helvetica '> HOUSE PRICE PRIDICTION </h1>", unsafe_allow_html = True)
-st.markdown("<h4 style = 'margin: -30px; color: #F5F5F5; text-align: center; font-family: Trebuchet MS (sans-serif)': cursive '>Built By Sapphire Gomycode</h4>", unsafe_allow_html = True)
+st.markdown("<h4 style = 'margin: -30px; color: ##FF6C22; text-align: center; font-family: Trebuchet MS (sans-serif)': cursive '>Built By Sapphire Gomycode</h4>", unsafe_allow_html = True)
 
 #ADD IMAGE
 st.image('pngwing.com-4.png', use_column_width= True )
